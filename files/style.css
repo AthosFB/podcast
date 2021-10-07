@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to right, black, black, white);
+    color: white;
+    font: normal 1.5em Arial;
+    text-align: justify;
+}
+#text {
+    width: 900px;
+    padding: 50px;
+    line-height: 35px;
+}
+#text h1 {
+    text-align: center;
+    margin: 10px 0 50px 0;
+    text-shadow: 3px 3px 3px rgba(255, 0, 0, 0.74);
+}
+#trabalho {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.74);
+}
+#podcast {
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 5px;
+}
+#audio {
+    background-color: rgba(255, 0, 0, 0.205);
+    height: 100px;
+    width: 610px;
+    margin-left: 150px;
+    border-radius: 10px;   
+     border-radius: 10px;
+}
+#audio:hover {
+    background-color: rgba(255, 0, 0, 0.555);
+    transition: 0.5s;
+}
