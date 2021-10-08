@@ -1,39 +1,53 @@
 body {
-    background-image: linear-gradient(to right, black, black, white);
+    background-image: linear-gradient(to right, black, black, black, #777777, #BBBBBB);
     color: white;
     font: normal 1.5em Arial;
     text-align: justify;
 }
 #text {
-    width: 900px;
-    padding: 50px;
+    margin: 80px 0px 0px 100px;
+    width: 40%;
+    padding: 30px;
     line-height: 35px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#text:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 #text h1 {
     text-align: center;
-    margin: 10px 0 50px 0;
+    font: normal 3em Serif;
+    margin: 0px 0 50px 0;
     text-shadow: 3px 3px 3px rgba(255, 0, 0, 0.74);
 }
 #trabalho {
     position: absolute;
-    top: 10%;
-    right: 5%;
-    box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.74);
+    top: 8%;
+    right: 4%;
+    box-shadow: 0px 0px 0px 6px rgba(255, 0, 0, 0.74);
+    border-radius: 10px;
 }
 #podcast {
     margin-top: 20px;
-    width: 600px;
-    margin-left: 5px;
+    width: 90%;
+    margin-left: 5%;
 }
 #audio {
+    margin-top: 70px;
     background-color: rgba(255, 0, 0, 0.205);
     height: 100px;
-    width: 610px;
-    margin-left: 150px;
+    width: 40%;
+    margin-left: 7%;
     border-radius: 10px;   
-     border-radius: 10px;
 }
 #audio:hover {
     background-color: rgba(255, 0, 0, 0.555);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#trabalho:hover {
+    transform: scale(1.1);
     transition: 0.5s;
 }
